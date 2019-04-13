@@ -34,4 +34,4 @@ app.use('/files', express.static(path.resolve(__dirname, '..', 'tmp')));
 
 app.use(require("./routes")); //pra selecionar que as rotas estão em um arquivo especifico
 
-server.listen(3333);  //rodar o server node src/server.js
+server.listen(process.env.PORT || 3333);  //rodar o server node src/server.js

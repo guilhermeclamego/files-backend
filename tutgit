@@ -1,0 +1,6 @@
+adicionar todos os arquivos editados: git add . 
+commitar: git commit -m "Adicionar o testo de explicação aqui"
+jogar pro git: git push origin master
+ver arquivos alterados e não comitados: git status
+.gitignore para ignorar arquivos
+.gitkeep para manter arquivos de determinado local(pasta)
